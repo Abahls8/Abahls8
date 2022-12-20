@@ -1,5 +1,5 @@
 ## Seattle Data
-# Alex Bahls -- Command Line GIS
+#### Alex Bahls -- Command Line GIS
 
 This map shows parking data in Seattle for a select week in October (October 11 - October 17, 2022). Seattle has a dynamic pricing scheme where the price of parking depends in part on the expected demand for parking on that block and so the price of parking on each block varies.  The datasets are prepared by Seattle's Department of Transportation and are updated each day, though only a week of data is hosted at a time due to the size of the datasets. The data has, for each parking transaction, the time, location (with x,y coordinates), amount paid, duration paid for, and method of payment. The data quality was quite high, though there were some issues, specifically rows that had a negative parking duration which I had to remove. 
 
